@@ -21,4 +21,4 @@ export const CounterContext = createContext<CounterContextProps>({
   });
 
 
-  export const useCounterContext = () => useContext(CounterContext);
+export const useCounterContext = () => useContext(CounterContext);
