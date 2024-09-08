@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <CounterProvider>
-      <CounterComponent />
-    </CounterProvider>
+          <CounterComponent />
+      </CounterProvider>
     </>
   )
 }
