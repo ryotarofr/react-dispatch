@@ -18,7 +18,7 @@ export const State = (() => {
 })();
 
 
-export const Skic18001Provider = ({ children }: { children: ReactNode }) => {
+export const CounterProvider = ({ children }: { children: ReactNode }) => {
     const countState = useState<number>(0);
     const [countObj, setCountObj] = useState<number>(10);
 
